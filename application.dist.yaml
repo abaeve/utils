@@ -1,0 +1,10 @@
+namespace: the namespace where you micro bot is at
+registry: The location of the registry (consul)
+  hostname: <discovery server host>
+  port: <discovery server port>
+
+# example
+namespace: com.domain
+registry:
+  hostname: localhost
+  port: 8500
